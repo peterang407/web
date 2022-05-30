@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Westwood Technologies</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOLUTIONS</a>
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOLUTIONS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/artificial-intelligence.webp" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>AI</h3>
+      <p><b>Leveraging AI for data-driven business solutions!</b></p>   
+    </div>
+  </div>
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">WESTWOOD TECHNOLOGIES</h2>
+    <p class="w3-opacity"><i>We love AI</i></p>
+    <p class="w3-justify">Leveraging cutting-edge machine learning methodologies with data-driven methodologies, 
+        Westwood Technologies is poised to deliver informative and humane AI solutions to our clients. Founded two years
+        ago by our CEO, Peter, Westwood Technologies has since completed over 50 AI projects spanning multiple industries
+        and leveraging different technologies, including Natural Language Processing, Pose Detection and Image Recognition.
+    </p>
+  </div>
+    
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">OUR SOLUTIONS</h2>
+
+      <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <p>Pose Detection</p>
+          <img src="images/pose_detection.png" class="w3-round w3-margin-bottom" alt="A" style="width:90%">
+        </div>
+        <div class="w3-third">
+          <p>Natural Language Processing</p>
+          <img src="images/nlp.webp" class="w3-round w3-margin-bottom" alt="B" style="width:90%">
+        </div>
+        <div class="w3-third">
+          <p>Object Detection</p>
+          <img src="images/object_detection.png" class="w3-round" alt="C" style="width:90%" >
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-white" id="team">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">OUR TEAM</h2>
+    
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <!-- <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container w3-white">
+            <p><b>Peter Ang</b></p>
+            <p class="w3-opacity">CEO</p>
+            <p>With a background in Computer Science, Peter spearheads the team's efforts in coming out with AI-driven solutions.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!-- <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container w3-white">
+            <p><b>Lina Tay</b></p>
+            <p class="w3-opacity">CTO</p>
+            <p>As an ex-employee in a tech MNC, Lina oversees the development, deployment and maintenance of our various products.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!-- <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container w3-white">
+            <p><b>Tan Ee Ling</b></p>
+            <p class="w3-opacity">COO</p>
+            <p>Ee Ling oversees the day-to-day operations of our team and works hand-in-hand with our finance, sales and marketing departments to ensure our business is on-track.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Contact us here!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i>Singapore, SG<br>
+        <i class="fa fa-phone" style="width:30px"></i>Phone: +65 6516 3407<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: peterang407@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510562.3129247414!2d103.5640339418503!3d1.314670961497227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52abf5c4!2sSingapore!5e0!3m2!1sen!2ssg!4v1653881899968!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
